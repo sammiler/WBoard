@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.qrc": "xml",
+        "**/TSResource/**/*.ts": "xml"  // 添加 **/ 前缀，匹配任意父目录下的 TSResource
+
+    },
+    "qt-ui.customWidgetsDesignerExePath" : "C:\\Qt\\Qt5.9.5\\5.9.5\\msvc2017_64\\bin\\designer.exe",
+    "search.exclude": {
+    "**/build": true,
+    }
+}

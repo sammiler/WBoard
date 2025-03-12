@@ -1,0 +1,8 @@
+ninja: Entering directory `build'
+[1/3] Automatic MOC and UIC for target shotcut
+[2/2] Linking CXX executable bin\shotcut.exe
+FAILED: bin/shotcut.exe 
+C:\Windows\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1916 --intdir=Source\CMakeFiles\shotcut.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\HostX64\x64\link.exe /nologo @CMakeFiles\shotcut.rsp  /out:bin\shotcut.exe /implib:lib\shotcut.lib /pdb:bin\shotcut.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows && C:\Windows\system32\cmd.exe /C "cd /D C:\Users\sammiler\MyFile\QtStudy\WBoard-main\WBoard\build\Source && powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/sammiler/MyFile/QtStudy/WBoard-main/WBoard/build/bin/shotcut.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\ENTERP~1\VC\Tools\MSVC\1416~1.270\bin\HostX64\x64\link.exe /nologo @CMakeFiles\shotcut.rsp /out:bin\shotcut.exe /implib:lib\shotcut.lib /pdb:bin\shotcut.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:windows /MANIFEST /MANIFESTFILE:Source\CMakeFiles\shotcut.dir/intermediate.manifest Source\CMakeFiles\shotcut.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: �޷����ļ���release.lib��
+ninja: build stopped: subcommand failed.
