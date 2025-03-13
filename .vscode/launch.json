@@ -12,7 +12,7 @@
             "environment": [
                 {
                     "name": "PATH",
-                    "value": "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin;C:/Users/sammiler/MyFile/QtStudy/WBoard-main/WBoard/ThirdParty/quazip/Debug/bin;C:/Users/sammiler/MyFile/QtStudy/WBoard-main/WBoard/ThirdParty/openssl/bin;"
+                    "value": "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin;${workspaceFolder}/ThirdParty/quazip/Debug/bin;${workspaceFolder}/ThirdParty/openssl/bin;"
                 },
                 {
                     "name": "QT_PLUGIN_PATH",
