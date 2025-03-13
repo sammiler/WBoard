@@ -5,7 +5,6 @@
             "includePath": [
                 "${workspaceFolder}/Source/",
                 "C:/vcpkg/installed/x64-windows/include",
-                "c:/Users/sammiler/MyFile/QtStudy/VSCode/poco/**",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtCore",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtGui",
@@ -13,14 +12,14 @@
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtXml",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtXmlPatterns",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtNetwork",
-                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtSql"
-
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtSql",
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtSvg",
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtMultimediaWidgets"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE",
-                //调试Qt源码用
                 "QT_BUILD_CORE_LIB",
                 "QT_BUILD_GUI_LIB",
                 "QT_BUILD_QML_LIB",

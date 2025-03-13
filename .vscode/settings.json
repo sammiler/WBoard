@@ -1,9 +1,11 @@
 {
     "files.associations": {
-        "*.qrc": "xml",
-        "**/TSResource/**/*.ts": "xml",
-        "*.ui": "xml",
-        "qfile": "cpp"
+      "*.qrc": "xml",
+      "**/TSResource/**/*.ts": "xml",
+      "*.ui": "xml",
+      "qfile": "cpp",
+      "qtxml": "cpp",
+      "qmimedata": "cpp"
     },
     "cmake.configureArgs": [
         "-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
@@ -25,5 +27,4 @@
             ]
           }
         ]
-
 }

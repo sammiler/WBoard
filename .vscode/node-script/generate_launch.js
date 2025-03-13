@@ -17,7 +17,7 @@ const baseConfig = {
     environment: [
         {
             "name": "PATH",
-            "value": "${env:PATH};C:/vcpkg/installed/x64-windows/debug/bin"
+            "value": "${env:PATH};C:/vcpkg/installed/x64-windows/debug/bin;C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin;"
         },
         {
             "name": "QT_PLUGIN_PATH",
@@ -29,7 +29,7 @@ const baseConfig = {
         },
         {
             "name": "QML2_IMPORT_PATH",
-            "value": "C:\\vcpkg\\installed\\x64-windows\\debug\\Qt6\\qml"
+            "value": "C:/vcpkg/installed/x64-windows/debug/Qt6/qml"
         }
     ],
     preLaunchTask: "cmake-build",
