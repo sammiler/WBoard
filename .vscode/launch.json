@@ -18,14 +18,14 @@
                     "name": "QT_PLUGIN_PATH",
                     "value": "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/plugins"
                 },
-                // {
-                //     "name": "QML_PATH",
-                //     "value": "C:/vcpkg/installed/x64-windows/debug/bin"
-                // },
-                // {
-                //     "name": "QML2_IMPORT_PATH",
-                //     "value": "C:/vcpkg/installed/x64-windows/debug/Qt6/qml"
-                // }
+                {
+                    "name": "QML_PATH",
+                    "value": "C:/vcpkg/installed/x64-windows/debug/bin"
+                },
+                {
+                    "name": "QML2_IMPORT_PATH",
+                    "value": "C:/vcpkg/installed/x64-windows/debug/Qt6/qml"
+                }
             ],
             "console": "integratedTerminal",
             "setupCommands": [
