@@ -15,9 +15,9 @@
                 // "-A",
                 // "x64",                   // 指定目标架构（如 x64）
                 "Ninja",
-                "-DCMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64\\cl.exe",
-                "-DCMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64\\cl.exe",
-                "-DCMAKE_LINKER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64\\link.exe",
+                "-DCMAKE_C_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+                "-DCMAKE_CXX_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+                "-DCMAKE_LINKER=C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/link.exe",
                 "-DCMAKE_RC_COMPILER=C:/\"Program Files (x86)\"/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe",
                 "-DCMAKE_MT=C:/\"Program Files (x86)\"/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe",
                 "-DCMAKE_MC_COMPILER=C:/\"Program Files (x86)\"/Windows Kits/10/bin/10.0.22621.0/x64/mc.exe",
@@ -25,7 +25,7 @@
                 "-DCMAKE_BUILD_TYPE=Debug",
                 "-DCMAKE_CXX_FLAGS=/EHsc /W3 /MP /Zi /FS /showIncludes /MDd /D_ITERATOR_DEBUG_LEVEL=2", // Add /MDd here too
                 "-DCMAKE_C_FLAGS=/EHsc /W3 /MP /Zi /FS /showIncludes /MDd /D_ITERATOR_DEBUG_LEVEL=2",   // Add for consistency
-                "-DCMAKE_TOOLCHAIN_FILE=C:\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake",
+                "-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
 				"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=${workspaceFolder}/build/bin",
 				"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=${workspaceFolder}/build/lib",
 				"-DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=${workspaceFolder}/build/lib",
@@ -35,7 +35,7 @@
             "options": {
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PATH": "C:/Tools;C:\\Program Files\\CMake\\bin;C:\\Qt\\Qt5.9.5\\5.9.5\\msvc2017_64\\bin",
+                    "PATH": "C:/Tools;C:/Program Files/CMake/bin;C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin",
                     "INCLUDE": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/include;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared;",
                     "LIB": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/lib/x64;C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/ucrt/x64;C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64;"
                 }
@@ -62,7 +62,7 @@
                 
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PATH": "C:/Tools;C:\\Program Files\\CMake\\bin;C:\\Qt\\Qt5.9.5\\5.9.5\\msvc2017_64\\bin;C:/Windows/System32/WindowsPowerShell/v1.0/",
+                    "PATH": "C:/Tools;C:/Program Files/CMake/bin;C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin;C:/Windows/System32/WindowsPowerShell/v1.0/",
                     "INCLUDE": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/include;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/um;C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/shared;",
                     "LIB": "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.16.27023/lib/x64;C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/ucrt/x64;C:/Program Files (x86)/Windows Kits/10/Lib/10.0.22621.0/um/x64;",
                 }
