@@ -5,8 +5,10 @@
       "*.ui": "xml",
       "qfile": "cpp",
       "qtxml": "cpp",
-      "qmimedata": "cpp"
+      "qmimedata": "cpp",
+      "xstring": "cpp"
     },
+    
     "cmake.configureArgs": [
         "-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake",
         "-DVCPKG_TARGET_TRIPLET=x64-windows"
