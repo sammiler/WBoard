@@ -15,7 +15,11 @@
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtNetwork",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtSql",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtSvg",
-                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtMultimediaWidgets"
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtMultimediaWidgets",
+                "${workspaceFolder}/build/Source/WBOARD_autogen/include_Debug",
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtWebEngine",
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtWebEngineWidgets",
+                "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtQml"
             ],
             "defines": [
                 "_DEBUG",
