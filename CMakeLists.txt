@@ -47,6 +47,7 @@ find_package(Qt5  REQUIRED
 )                              
 
 
+
 add_subdirectory(Source)
 add_subdirectory(TSResource)
 

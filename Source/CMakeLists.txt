@@ -2,10 +2,26 @@
 add_executable(WBOARD WIN32 
 )
 
+
+if(MSVC)
+    set_target_properties(WBOARD PROPERTIES
+        VS_DEBUGGER_ENVIRONMENT "PATH=C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/plugins/platforms \
+                                 C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/bin;$ENV{PATH}"
+    )
+endif()
+
 file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/Source/*.cpp" "${CMAKE_SOURCE_DIR}/Source/*.h")
 file(GLOB_RECURSE UI "${CMAKE_SOURCE_DIR}/UI/*.ui")
 file(GLOB_RECURSE RC "${CMAKE_SOURCE_DIR}/Resources/WBoard.qrc" "${CMAKE_SOURCE_DIR}/WBoard.rc")
 
+
+# 可选：自动按目录分组
+foreach(_source IN ITEMS ${SOURCES})
+    get_filename_component(_source_path "${_source}" PATH)
+    file(RELATIVE_PATH _source_path_rel "${CMAKE_SOURCE_DIR}" "${_source_path}")
+    string(REPLACE "/" "\\" _group_path "${_source_path_rel}")
+    source_group("${_group_path}" FILES "${_source}")
+endforeach()
 
 
 target_sources(WBOARD PRIVATE ${SOURCES})

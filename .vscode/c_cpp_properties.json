@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/Source/",
-                "C:/vcpkg/installed/x64-windows/include",
+                "${workspaceFolder}/ThirdParty/openssl/include",
+                "${workspaceFolder}/ThirdParty/quazip/include",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtCore",
                 "C:/Qt/Qt5.9.5/5.9.5/msvc2017_64/include/QtGui",

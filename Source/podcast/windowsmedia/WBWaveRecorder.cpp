@@ -12,6 +12,7 @@ WBWaveRecorder::WBWaveRecorder(QObject * pParent)
     , mNbChannels(2)
     , mSampleRate(44100)
     , mBitsPerSample(16)
+    , mWaveInDevice(NULL)
 {
     // NOOP
 }
@@ -55,7 +56,10 @@ bool WBWaveRecorder::init(const QString& waveInDeviceName)
     format.nSamplesPerSec = mSampleRate;
     format.nBlockAlign = format.nChannels * (format.wBitsPerSample / 8);
     format.nAvgBytesPerSec = format.nSamplesPerSec * format.nBlockAlign;
-
+    if (mWaveInDevice == NULL)
+    {
+        return false;
+    }
     if (waveInOpen(&mWaveInDevice, deviceID, &format, (DWORD)waveInProc, (DWORD_PTR)this, CALLBACK_FUNCTION) != MMSYSERR_NOERROR)
     {
         setLastErrorMessage("Cannot open wave in device ");
